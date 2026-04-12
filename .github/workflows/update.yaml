@@ -27,8 +27,8 @@ jobs:
       - name: Copy output
         run: |
           cp epg-folder/README.md README.md
-          rm -rf e
-          cp -r epg-folder/e e
+          rm -rf epg
+          cp -r epg-folder/e epg
           rm -rf epg-folder
 
       - name: Commit and Push changes
