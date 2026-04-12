@@ -5,7 +5,7 @@ on:
   repository_dispatch:
     types: [epg_update]
   schedule:
-    - cron: '0 */12 * * *'
+    - cron: '0 5 * * *'
 
 permissions:
   contents: write
